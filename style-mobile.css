@@ -1,0 +1,34 @@
+@media all and (max-width:375px) {
+    .container__product {
+        flex-direction: column;
+        width: 90vw;
+        height: 70vh;
+        border-radius: 10px;
+    }
+    
+    .img {
+        display: none;
+    }
+
+    .container__img, .container__content__product {
+        width: 100%;
+    }
+
+    .container__content__product {
+        padding: 25px 20px;
+    }
+
+    .paragraph__product {
+        line-height: 23px;
+    }
+
+    .container__price__product {
+        margin: 20px 0 15px 0;
+    }
+
+    .img__mobile {
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
